@@ -10,7 +10,7 @@ Run this:
 
 # Usage
 
-[Gem](https://github.com/UniversalShift/GemDP) allows you to use powerful python libraries or modules in datapack creating (like [Math](https://docs.python.org/3/library/math.html)) which makes it much easier.
+[Gem](https://github.com/UniversalShift/GemDP) allows you to use powerful python libraries or modules in datapack creating (like [math](https://docs.python.org/3/library/math.html)) which makes it much easier.
 Also it adds many features like
 
 
