@@ -14,8 +14,8 @@ Gem allows you to use powerful python libraries in datapack creating which makes
 Also it adds many features like
 
 
-- Adding real placable blocks (or even items) easily using a simple function
+- Adding real placable blocks (or even items) easily using simple functions.
 
 <img src="https://raw.githubusercontent.com/UniversalShift/GemDP/refs/heads/main/Assets/example.png" width="720" height="520" />
 
--
+- Creating functions or other namespaces with a single code line without using an explorer.
