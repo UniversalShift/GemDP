@@ -15,9 +15,6 @@ Also it adds many features like
 
 - Adding real placable blocks (or even items) easily using a simple function
 
-
-Example:
-
 <img src="https://raw.githubusercontent.com/UniversalShift/GemDP/refs/heads/main/Assets/example.png" width="720" height="520" />
 
 -
