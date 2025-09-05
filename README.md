@@ -14,7 +14,7 @@ Run this:
 Also it adds many features like
 
 
-- Adding real placable blocks (or even items) easily using simple functions.
+- Adding real placable blocks (or even items) easily using simple functions. [See Example](https://github.com/UniversalShift/GemDP/blob/main/Examples/ruby_mod.py)
 
 <img src="https://raw.githubusercontent.com/UniversalShift/GemDP/refs/heads/main/Assets/example.png" width="720" height="520" />
 
