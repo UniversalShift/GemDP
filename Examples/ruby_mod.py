@@ -4,6 +4,8 @@ Basic tutorial for adding new ore/blocks/items
 
 I guess gem is pretty useful for this
 
+Btw. U'll need sprites as u can see
+
 """
 
 from gem import ResourcePack, DataPack
