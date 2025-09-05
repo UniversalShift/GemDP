@@ -5,4 +5,5 @@
 
 # Installation
 
-<code>adsasdsda </code>
+Run this:
+<code>pip install gemDP</code>
