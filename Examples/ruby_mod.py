@@ -1,4 +1,10 @@
-"""Basic tutorial for adding new ore/blocks/items"""
+"""
+
+Basic tutorial for adding new ore/blocks/items
+
+I guess gem is pretty useful for this
+
+"""
 
 from gem import ResourcePack, DataPack
 
