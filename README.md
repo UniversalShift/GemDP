@@ -11,7 +11,7 @@ Run this:
 # Usage
 
 [Gem](https://github.com/UniversalShift/GemDP) allows you to use powerful python libraries or modules in datapack creating (like [math](https://docs.python.org/3/library/math.html)) which makes it much easier.
-Also it adds many features like
+Also it adds many features like:
 
 
 - Adding real placable blocks (or even items) with custom reciepes and attributes easily using simple functions. [See Examples](https://github.com/UniversalShift/GemDP/blob/main/Examples)
