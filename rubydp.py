@@ -4,6 +4,7 @@ from typing import Dict, List, Optional, Union
 from pathlib import Path
 import shutil
 
+# Gl
 
 class MinecraftVersion:
 
@@ -404,7 +405,7 @@ class ResourcePack(Pack):
         item_name: Optional[str] = None,
         loot_table: Optional[dict] = None,
     ):
-        give_function = self.add_custom_item(
+        Item = self.add_custom_item(
             namespace=namespace,
             model_type="block",
             item_id="item_frame",
@@ -504,8 +505,8 @@ class ResourcePack(Pack):
             namespace=namespace,
             item_id="item_frame",
             custom_name=custom_name,
-            components=give_function.components,
-            give_function=give_function, #IDGAF about this warning too.
+            components=Item.components,
+            give_function=Item.give_function,
             base_block=base_block,
             loot_table=loot_table,
         )
@@ -664,7 +665,7 @@ class CustomItem:
         self.item_id = item_id
         self.custom_name = custom_name
         self.components = components
-        self.give_function = self.namespace + ":" + self.custom_name
+        self.give_function = give_function
 
     def get_give_function(self) -> str:
         return self.give_function
