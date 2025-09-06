@@ -19,3 +19,4 @@ Also it adds many features like
 <img src="https://raw.githubusercontent.com/UniversalShift/GemDP/refs/heads/main/Assets/example.png" width="720" height="520" />
 
 - Creating functions or other namespaces with a single code line without using an explorer.
+- Easy to-make mods [See Documentation](https://github.com/UniversalShift/GemDP/blob/main/Documentation)
