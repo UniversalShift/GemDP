@@ -145,7 +145,7 @@ custom_block = resourcepack.add_custom_block(
     datapack=datapack,
     base_block="minecraft:stone",
     namespace="myns", 
-    texture_path="path/to/block_texture.png",
+    texture_path="block_texture.png",
     custom_name="custom_stone",
     item_name="Custom Stone Block"
 )
