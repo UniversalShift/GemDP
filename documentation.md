@@ -42,6 +42,7 @@ Extends Pack for creating resource packs with additional functionality for custo
 - `add_sound()`: Adds custom sounds
 - `add_custom_item()`: Creates a custom item with components
 - `add_custom_block()`: Creates a custom block with associated functionality
+- ...
 
 ### Namespace
 Represents a namespace within a pack, containing folders and files.
@@ -55,10 +56,10 @@ Represents a folder within a namespace with methods for creating various Minecra
 - Various `create_*()` methods for different Minecraft content types
 
 ### CustomItem
-Represents a custom Minecraft item with associated functionality.
+Class related to custom items
 
 ### CustomBlock
-Extends CustomItem for custom blocks with placement functionality.
+Class related to custom blocks obviously
 
 ## Usage Examples
 
