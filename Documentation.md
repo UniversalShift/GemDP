@@ -1,4 +1,4 @@
-# Minecraft Pack Creator Documentation
+# Minecraft Gem Documentation
 
 # <img src="https://raw.githubusercontent.com/UniversalShift/GemDP/refs/heads/main/Assets/Gem.gif" width="200" height="200" />
 
