@@ -414,7 +414,7 @@ class ResourcePack(Pack):
             custom_name=custom_name,
             item_name=item_name,
             datapack=datapack,
-            entity_data={"id": "item_frame", "Tags": [custom_name], "Invisible": True, "Fixed":1},
+            entity_data={"id": "item_frame", "Tags": [custom_name], "Invisible": True, "Fixed":1,"Facing":1},
         )
 
         ns = datapack.add_namespace(namespace)
@@ -470,7 +470,8 @@ class ResourcePack(Pack):
                                                 "id": "item_frame",
                                                 "Tags": [f"{custom_name}"],
                                                 "Invisible": True,
-                                                "Fixed":1
+                                                "Fixed": 1,
+                                                "Facing": 1
                                             },
                                         },
                                     }
@@ -780,4 +781,4 @@ class CustomBlock(CustomItem):
     def get_place_command(
         self, x: Union[int, str], y: Union[int, str], z: Union[int, str]
     ) -> str:
-        return f'summon item_frame {x} {y} {z} {{Tags:["{self.custom_name}"],Invisible:true, Fixed:1}}'
+        return f'summon item_frame {x} {y} {z} {{Tags:["{self.custom_name}"],Invisible:true, Fixed:1, Facing:1}}'
